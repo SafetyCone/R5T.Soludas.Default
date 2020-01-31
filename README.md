@@ -1,0 +1,2 @@
+# R5T.Soludas.Default
+A default service implementations library for the Soludas project.
