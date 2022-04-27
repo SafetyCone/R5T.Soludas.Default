@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 
 using R5T.Cambridge.Types;
-using R5T.Vandalia;
+using R5T.Vandalia;using R5T.T0064;
 
 
 namespace R5T.Soludas.Default
-{
-    public class VisualStudioSolutionFileValueEqualityComparer : IVisualStudioSolutionFileValueEqualityComparer
+{[ServiceImplementationMarker]
+    public class VisualStudioSolutionFileValueEqualityComparer : IVisualStudioSolutionFileValueEqualityComparer,IServiceImplementation
     {
         private IValueEqualityComparer<SolutionFile> SolutionFileValueEqualityComparer { get; }
 
